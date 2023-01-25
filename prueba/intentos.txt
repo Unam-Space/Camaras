@@ -1,0 +1,41 @@
+        
+        
+        marker_position = nums_from_string.get_nums(str_position)
+        print(marker_position)
+        print(type(marker_position))
+        #-- ejemplo de funcion de extraer de cadena
+        
+        
+        
+        
+        if id_to_find == 0:
+            ser.write(bytes(marker_position, 'UTF-8'))
+            
+            
+            
+                    X = '%4d'%(tvec[0])
+        Y = '%4d' %(tvec[1])
+        Z = '%4d' %(tvec[2])
+        
+        X1 = nums_from_string.get_nums(X)
+        Y1 = nums_from_string.get_nums(Y)
+        Z1 = nums_from_string.get_nums(Z)
+        
+        X2 = (X1[0]*256)/640
+        print(X1, Y1, Z1)
+        
+        if id_to_find == 0:
+            ser.write(X2)
+            
+            
+            
+            
+        marker_position = nums_from_string.get_nums(str_position)
+        marker = split('\D+', str_position)
+        for n in marker:
+        	print(n)
+        	
+        	if id_to_find == 0:
+            		ser.write(n.encode())
+        
+     
